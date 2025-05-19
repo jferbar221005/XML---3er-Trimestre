@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+<!ELEMENT test (question+)>
+<!ELEMENT question (wording,choices)>
+<!ELEMENT wording (#PCDATA)>
+<!ELEMENT choices (choice+)>
+<!ELEMENT choice (#PCDATA)>
+<!ATTLIST question id CDATA #REQUIRED>
+<!ATTLIST choice correct (yes|no) "no">
+]>
+
+<test>
+
+<question id="1">
+<wording>¿Cuál de los siguientes NO es un sistema operativo?</wording>
+<choices>
+<choice correct="no">Windows</choice>
+<choice correct="no">UNIX</choice>
+<choice correct="yes">Apache</choice>
+<choice correct="no">Linux</choice>
+</choices>
+</question>
+
+<question id="2">
+<wording>En Windows 10, ¿qué combinación de teclas abre la ventana Ejecutar?</wording>
+<choices>
+<choice correct="yes">Tecla del Logotipo de Windows + R</choice>
+<choice correct="no">Tecla del Logotipo de Windows + A</choice>
+<choice correct="no">Tecla del Logotipo de Windows + E</choice>
+<choice correct="no">Tecla del Logotipo de Windows + M</choice>
+</choices>
+</question>
+
+<question id="3">
+<wording>¿Qué es Cortana en Windows 10?</wording>
+<choices>
+<choice correct="yes">Un asistente virtual</choice>
+<choice correct="no">Un editor de texto</choice>
+<choice correct="no">Una hoja de cálculo</choice>
+<choice correct="no">Un gestor de base de datos</choice>
+</choices>
+</question>
+
+<question id="4">
+<wording>¿Cuál es la ultima versión disponible de Windows 10?</wording>
+<choices>
+<choice correct="yes">Windows 10 22H2</choice>
+<choice correct="no">Windows 10 23H2</choice>
+<choice correct="no">Windows 10 21H2</choice>
+<choice correct="no">Windows 10 23H1</choice>
+</choices>
+</question>
+
+<question id="5">
+<wording>¿En qué fecha dejará de dar soporte Microsoft a Windows 10?</wording>
+<choices>
+<choice correct="no">26 / 05 / 2026</choice>
+<choice correct="no">6 / 10 / 2027</choice>
+<choice correct="yes">14 / 10 / 2025</choice>
+<choice correct="no">29 /10 / 2032</choice>
+</choices>
+</question>
+
+<question id="6">
+<wording>¿En qué fecha se lanzó Windows 10?</wording>
+<choices>
+<choice correct="no">01 / 02 / 2013</choice>
+<choice correct="no">09 / 12 / 2018</choice>
+<choice correct="no">29 /10 / 2016</choice>
+<choice correct="yes">29 / 10 / 2015</choice>
+</choices>
+</question>
+
+<question id="7">
+<wording>¿En qué año se lanzó Windows 11 al mercado?</wording>
+<choices>
+<choice correct="no">2020</choice>
+<choice correct="yes">2021</choice>
+<choice correct="no">2022</choice>
+<choice correct="no">2023</choice>
+</choices>
+</question>
+
+<question id="8">
+<wording>¿Como se llama la herramienta de acceso remoto de Microsoft?</wording>
+<choices>
+<choice correct="no">AnyDesk</choice>
+<choice correct="no">RDP</choice>
+<choice correct="yes">Remote Desktop</choice>
+<choice correct="no">TeamViewer</choice>
+</choices>
+</question>
+
+<question id="9">
+<wording>¿Cuál fué el primer Windows doméstico en incluir el kerner Windows NT?</wording>
+<choices>
+<choice correct="no">Windows 2000</choice>
+<choice correct="no">Windows ME</choice>
+<choice correct="no">Windows 7</choice>
+<choice correct="yes">Windows XP</choice>
+</choices>
+</question>
+
+<question id="10">
+<wording>¿Qué versión de Windows innovó con la interfaz gráfica Metro orientada a dispoitivos con panel táctil?</wording>
+<choices>
+<choice correct="no">Windows 7</choice>
+<choice correct="no">Windows 8.1</choice>
+<choice correct="yes">Windows 8</choice>
+<choice correct="no">Windows 11</choice>
+</choices>
+</question>
+
+<question id="11">
+<wording>¿Qué sistema de archivos maneja principalmente las versiones de Windows modernas?</wording>
+<choices>
+<choice correct="yes">NTFS</choice>
+<choice correct="no">FAT32</choice>
+<choice correct="no">HFS</choice>
+<choice correct="no">EXT4</choice>
+</choices>
+</question>
+
+<question id="12">
+<wording>¿Como se llama el programa integrado en Windows para modificar el registro del S.O?</wording>
+<choices>
+<choice correct="no">CONTROLPANEL</choice>
+<choice correct="no">DISM</choice>
+<choice correct="no">chkdsk</choice>
+<choice correct="yes">Regedit</choice>
+</choices>
+</question>
+
+<question id="13">
+<wording>¿Cuál ha sido la innovación más grande hasta ahora en Windows 11?</wording>
+<choices>
+<choice correct="yes">Copilot AI+</choice>
+<choice correct="no">Nueva interfaz gráfica</choice>
+<choice correct="no">Más estable que Windows 10</choice>
+<choice correct="no">Mejor para gaming que Windows 10</choice>
+</choices>
+</question>
+
+<question id="14">
+<wording>¿Cuál de estos es un requisito "obligatorio" de Windows 11?</wording>
+<choices>
+<choice correct="yes">TPM 2.0</choice>
+<choice correct="no">Impresora SMB</choice>
+<choice correct="no">Pantalla con resolución 1440p o mayor</choice>
+<choice correct="no">32GB de RAM</choice>
+</choices>
+</question>
+
+<question id="15">
+<wording>¿Por que Windows en los discos aparece menos cantidad de almacenamiento del que realmente dispone?</wording>
+<choices>
+<choice correct="no">Se reserva una parte para caché de sombreados</choice>
+<choice correct="yes">Por la conversión de GB a GiB</choice>
+<choice correct="no">Windows realmente dice la capacidad real</choice>
+<choice correct="no">Por limitación del sistema de archivos NTFS</choice>
+</choices>
+</question>
+
+<question id="16">
+<wording>¿Con qué marcas de CPU es compatible Windows en arquitectura x86?</wording>
+<choices>
+<choice correct="no">Qualcomm Snapdragon</choice>
+<choice correct="yes">Intel y AMD</choice>
+<choice correct="no">Apple Silicon</choice>
+<choice correct="no">IBM PowerPC</choice>
+</choices>
+</question>
+
+<question id="17">
+<wording>¿Como se le denomina a el registro donde se puede ver todo los eventos del sistema?</wording>
+<choices>
+<choice correct="no">Control Panel</choice>
+<choice correct="no">MSCONFIG</choice>
+<choice correct="yes">Visor de eventos</choice>
+<choice correct="no">MSINFO32</choice>
+</choices>
+</question>
+
+<question id="18">
+<wording>¿Como se le denomina a el panel donde se indica las directivas de equipo y usuario?</wording>
+<choices>
+<choice correct="yes">Editor de directivas de grupo local</choice>
+<choice correct="no">MSCONFIG</choice>
+<choice correct="no">Directiva de seguridad local</choice>
+<choice correct="no">MSINFO32</choice>
+</choices>
+</question>
+
+<question id="19">
+<wording>¿Cuál es la versión mas reciente de Windows Server?</wording>
+<choices>
+<choice correct="no">Windows Server 2022</choice>
+<choice correct="no">Windows Server 2016</choice>
+<choice correct="yes">Windows Server 2025</choice>
+<choice correct="no">Windows Server 2019</choice>
+</choices>
+</question>
+
+<question id="20">
+<wording>¿Como se llama el navegador de Microsoft que ya no esta disponible en Windows 11?</wording>
+<choices>
+<choice correct="no">Microsoft Edge</choice>
+<choice correct="no">Microsoft Edge Legacy</choice>
+<choice correct="yes">Mincrosoft Internet Explorer</choice>
+<choice correct="no">Mozilla Firefox</choice>
+</choices>
+</question>
+
+</test>
